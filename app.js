@@ -1,10 +1,10 @@
 const videoCardContainer = document.querySelector('.video-container');
 
-let api_key = "AIzaSyDviGvInVfUS7TZzvHct0dY_6asK5LQ1Vw";
+let api_key = "";
 let video_http = "https://www.googleapis.com/youtube/v3/videos?";
 let channel_http = "https://www.googleapis.com/youtube/v3/channels?";
 
-fetch(video_http + new URLSearchParams({
+/* fetch(video_http + new URLSearchParams({
     key: api_key,
     part: 'snippet',
     chart: 'mostPopular',
@@ -27,19 +27,19 @@ const getChannelIcon = (video_data) => {
     }))
     .then(res => res.json())
     .then(data => {
-        video_data.channelThumbnail = data.items[0].snippet.thumbnails.default.url;
+        video_data.channelThumbnail = data.items[0].snippet.thumbnails.default.url;*/
         makeVideoCard(video_data);
-    })
-}
+/*    })
+}*/
 
 const makeVideoCard = (data) => {
     videoCardContainer.innerHTML += `
-    <div class="video" onclick="location.href = 'watch.html?v=${data.id}'">
-        <img src="${data.snippet.thumbnails.high.url}" class="thumbnail" alt="">
+    <div class="video" onclick="location.href = 'watch.html?v=DXb644XruHA'">
+        <img src="" class="thumbnail" alt="">
         <div class="content">
             <div class="info">
-                <h4 class="title">${data.snippet.title}</h4>
-                <p class="channel-name" onclick="location.href = 'results.html?search_query='${data.snippet.channelTitle}'">${data.snippet.channelTitle}</p>
+                <h4 class="title">Sample Title</h4>
+                <p class="channel-name" onclick="location.href = 'results.html?search_query='${data.snippet.channelTitle}'">Sample Channel</p>
             </div>
         </div>
     </div>
