@@ -19,11 +19,13 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    height: 60px;
-    background: #f0f0f0;
+    height: 50px;
+    background: #ebebeb;
     display: flex;
     align-items: center;
-    padding: 0 2.5vw;
+    padding: 7px 0 8px;
+    min-width: 1003px;
+    border-bottom: 1px solid #e8e8e8;
 }
 
 .toggle-btn{
@@ -52,7 +54,7 @@ body{
 
 .logo{
     height: 30px;
-    margin: -10px 30px 0;
+    margin: -2px 30px 0;
 }
 
 .search-box{
@@ -118,38 +120,41 @@ body{
     position: fixed;
     top: 60px;
     left: 0;
-    min-width: 250px;
-    width: 250px;
+    min-width: 150px;
+    width: 180px;
     height: calc(100vh - 60px);
     background: #fff;
     padding-right: 10px;
+    margin-left: 45px;
 }
 
 .links{
     display: block;
     width: 100%;
-    padding: 5px 15px;
+    padding: 5px 5px;
     display: flex;
     align-items: center;
     text-transform: capitalize;
-    color: #242424;
-    font-size: 14px;
+    color: #999;
+    font-size: 11px;
     font-weight: 500;
     text-decoration: none;
 }
 
 .links img{
-    height: 20px;
-    margin-right: 20px;
+    height: 18px;
+    margin-right: 10px;
 }
 
 .links:hover{
 	background: rgba(0, 0, 0, 0.7);
 	color: rgba(255, 255, 255, 1);
+    font-weight: bold;
 }
 .links.active{
     background: rgba(200, 0, 0, 1);
     color: rgba(255, 255, 255, 1);
+    font-weight: bold;
 }
 
 .seperator{
@@ -202,7 +207,7 @@ body{
 
 .video-container{
     width: calc(100% - 250px);
-    margin-top: 120px;
+    margin-top: 60px;
     margin-left: 250px;
     padding: 20px;
     display: grid;
