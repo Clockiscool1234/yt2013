@@ -3,7 +3,7 @@ const videoCardContainer = document.querySelector('.video-container');
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const search = urlParams.get('search_query');
-let api_key = "";
+let api_key = "AIzaSyAe-TVdpD8kck_LmkKlSJzFnGJOb2EmLrE";
 let video_http = "https://www.googleapis.com/youtube/v3/search?";
 let channel_http = "https://www.googleapis.com/youtube/v3/channels?";
 // alert("https://youtube.googleapis.com/youtube/v3/search?q=" + search + "&key=" + api_key + "&part=snippet&maxResults=20&regionCode=PH")
