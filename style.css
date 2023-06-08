@@ -71,7 +71,6 @@ body{
     border: 2px solid #dbdbdb;
     padding: 0 20px;
     font-size: 16px;
-    text-transform: capitalize;
 }
 
 .search-btn{
