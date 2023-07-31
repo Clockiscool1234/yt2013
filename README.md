@@ -3,5 +3,5 @@ To use this, change the api_key variable in app.js and search.js with your api k
 Tutorial for creating api key: https://youtu.be/N18czV5tj5o <br>
 <img src="https://i.ibb.co/rvfhQww/Screenshot-2023-04-10-21-01-50-612-edit-com-android-chrome.jpg" alt=""><br>
 NON-Working demo (example): https://clockiscool1234.github.io/yt2013/demo <br>
-Working demo: https://clockiscool1234.github.io/yt2013/
+Working demo: ~~https://clockiscool1234.github.io/yt2013/~~ http://yt2013.xp3.biz/ <-- This is a better site I made in PHP and uses Invidious API
 NOTE: Search results is still not funtioning properlly
